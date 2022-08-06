@@ -1,6 +1,6 @@
 ## PWLS-MCST
 
-This is testing and training code for PWLS-MCST in "Multi-layer Clustering-based Residual Sparsifying Transform for Low-dose CT Image Reconstruction". We train the proposed MCST model with different depths based on XCAT phantom data and Mayo Clinic data. The learned transforms can be incorporated into regularizer to improve image quality for low-dose CT reconstruction. Note that you can find the Mayo Clinic dataset by visiting the URL <https://www.aapm.org/GrandChallenge/LowDoseCT/>. 
+This is testing and training code for PWLS-MCST in "Multi-layer Clustering-based Residual Sparsifying Transform for Low-dose CT Image Reconstruction". We train the proposed MCST model with different depths based on XCAT phantom data and Mayo Clinic data. The learned transforms can be incorporated into regularizer to improve image quality for low-dose CT reconstruction. Note that you can find the Mayo Clinic data provided by the 2016 NIH-AAPM-Mayo Clinic Low Dose CT Grand Challenge through visiting the URL <https://www.aapm.org/GrandChallenge/LowDoseCT/>. 
 
 
 If you use our code, please cite our paper:
