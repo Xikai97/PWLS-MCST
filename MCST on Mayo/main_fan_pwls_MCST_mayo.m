@@ -23,7 +23,7 @@ Ab = Gtomo_nufft_new(sg, ig);
 %% load external parameter
 I0 = 1e4; % photon intensity
 % load PWLS-EP Recon as initialization: 
-load('./Init_EP/3mm_L067_slice120_1e4_4blk_15.5_I2b_100iter_2Dreg_20delta.mat'); % change intial EP image when Recon slice and I0 are changed!
+load('./Init_EP/L067_slice120_3mm_EP_init.mat'); % change intial EP image when Recon slice and I0 are changed!
 xrlalm = info.xrlalm;
 
 %load transform: mOmega 
