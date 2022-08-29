@@ -18,7 +18,7 @@ Ab = Gtomo_nufft_new(sg, ig);
 I0 = 1e4; % photon intensity
 
 % load PWLS-EP Recon as initialization: 
-load('./Init_EP/slice20_xrlalm1e4_l2b16_os4_iter50_delta10.mat'); % change intial EP image when Recon slice and I0 are changed!
+load('./Init_EP/slice20_EP_init.mat.mat'); % change intial EP image when Recon slice and I0 are changed!
 xrlalm = info.xrlalm;
 
 %load transform: mOmega
